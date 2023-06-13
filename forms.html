@@ -1,0 +1,70 @@
+<html>
+    <head style form:color="yellow"></head>
+    </head>
+    <body>
+    <form style="color:bisque;font: size 46px;">
+        <fieldset>
+    <legend>PersonalDetails</legend>
+        <label for="name">Your Name</label>
+        <input type="text" placeholder="xyz" id="name" required>
+        <br>
+        <label for="age">Your age</label>
+        <input type="text" id="age" maxlength="4">
+        <br>
+        <label for="E-mail">Your email</label>
+        <input type="email" placeholder="xyz@gmail.com" id="email">
+        <br>
+        <label for="password">Enter password</label>
+        <input type="password" placeholder="enter password" id="password">
+        <br>
+        <label for="Contact">Enter Contact no.</label>
+        <input type="number" placeholder="number" id="number" min="0" max="15">
+        <br>
+        <label for="date">Enter date test</label>
+        <input type="date" placeholder="1-5-23" id="date" min="1995-01-01" max="2023-12-31">
+        <br>
+        <label for="file">Upload file here</label>
+        <input type="file"placeholder="Browse" id="file">
+        <br>
+        <label for="URL">URL</label>
+        <input type="url" placeholder="url" id="url">
+        <br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+        <br>
+        <input type="checkbox" id="male" name="gender" multiple>
+        <label for="male">male</label>
+        <input type="checkbox" id="male" name="gender">
+        <label for="male">female</label>
+        <br>
+        <!-- <label for="vehicles">Please select a transport mode </label> -->
+        <!-- <select for="vehicles" size="3"> -->
+        <!-- <option disabled>car</option> -->
+        <!-- <option>bus</option> -->
+        <!-- <option>self</option> -->
+<!-- </select> -->
+<!-- <br> -->
+<label for="vehicles">Please select a transport mode </label>
+<input type="text" list="vehicles">
+        <datalist id="vehicles">
+        <option disabled>car</option>
+        <option>bus</option>
+        <option>self</option>
+        </datalist>
+<br>
+<input type="datetime-local" id="date">
+<label for="date">Date</label>
+<br>
+<input type="tel" pattern="[0-9]{10}" id="contact">
+<label for="contact">Contact</label>
+<br>
+<textarea row="100" col="100">What are your future goals:-</textarea>
+<br>
+ <!-- |<input type="submit" value="click here"> -->
+<input type="image" placeholder="sumit" src="https://cdn-icons-png.flaticon.com/512/5651/5651414.png" height="50px">    
+</fieldset>
+</form>
+</body>
+</html>
