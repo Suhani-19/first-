@@ -2,24 +2,40 @@
 
 <head>STUDENT RECORD
     <style>
+        thead {
+            color: green;
+        }
+
+        tbody {
+            color: blue;
+        }
+
+        tfoot {
+            color: red;
+        }
+
         table,
         th,
         td {
             border: 1px dotted black;
             background-color: antiquewhite;
         }
-            table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: rgb(208, 68, 68);
-}
+
+        table {
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border-color: rgb(208, 68, 68);
+        }
+
         table.center {
             margin-left: auto;
             margin-right: auto;
         }
-        th,td{
-            padding:15px;
+
+        th,
+        td {
+            padding: 15px;
         }
     </style>
 </head>
@@ -30,18 +46,20 @@
         This is some text to be wrapped around the table.
         <br>
         This is some text to be wrapped around the table.
-    <table  class="center" style="width:400px";>
-       <caption>Personal Details</caption>
+    <table class="center" style="width:400px" ;>
+        <thead>
+            <tr>
+        Personal Details
+    </thead>
+    </tr>
         <tr>
-            <thread>
-            <th>Name</th>
-            <th>Course</th>
-            <th>College</th>
-            <th>Year</th>
-            <th>Phone</th>
-        </thread>
-        <tbody>
+                <th>Name</th>
+                <th>Course</th>
+                <th>College</th>
+                <th>Year</th>
+            <tbody>
         </tr>
+        <tfoot>
         <tr>
             <td>Suhani Gupta</td>
             <td>BCA</td>
@@ -49,7 +67,8 @@
             <td>Third</td>
             <td>212-00-546</td>
         </tr>
-    </tbody>
+        </tfoot>
+        </tbody>
     </table>
     </p>
 </body>

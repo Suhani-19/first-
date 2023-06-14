@@ -1,0 +1,15 @@
+<html>
+<head>
+    Single Page Website
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Courses</li>
+            <li>Register</li>
+            <li>Payment</li>
+    </nav>
+</body>
+</html>
